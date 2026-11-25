@@ -5,9 +5,9 @@ on:
 permissions: {}
 jobs:
   hola:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Saludar
-      run: echo 'Hola desde GitHub Actions'
-    - name: Mostrar fecha
-  run: date
+    runs-on: ubuntu-latest
+    steps:
+      - name: Saludar
+        run: echo 'Hola desde GitHub Actions'
+      - name: Mostrar fecha
+        run: date
